@@ -18,6 +18,16 @@
       "gender": "",
       "id": 5
     }
+    ,
+  {
+    "name": "Admin",
+    "email": "mailto:admin@gmail.com",
+    "password": "Admin@123",
+    "mobile": "9865986598",
+    "address": "",
+    "gender": "",
+    "id": 6
+  }
   ],
   "contactus": [
     {
@@ -307,4 +317,5 @@
       "specifications": "20.9MP Mirrorless Camera"
     }
   ]
+  
 }

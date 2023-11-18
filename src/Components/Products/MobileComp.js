@@ -3,6 +3,9 @@ import { Multimedia } from '../../shared/Constant/const'
 
 class MobileComp extends Component {
     render() {
+        const buy=()=>{
+            window.alert("Mobile is Added to cart")
+        }
         return (
             <div>
                 <div className='Mobile'>
@@ -16,7 +19,7 @@ class MobileComp extends Component {
                             <div className='card-footer'>
                                 <p className='card-text text-truncate'>Apple iPhone 13 (128GB, Starlight White)</p>
                                 <span style={{fontWeight:'bold'}}>₹55,990</span><br/><br/>
-                                <button type='button' className='btn btn-outline-secondary btn-lg'>Buy</button>
+                                <button type='button' onClick={buy}className='btn btn-outline-secondary btn-lg'>Buy</button>
                             </div>
                         </div>
                         </div>
@@ -28,7 +31,7 @@ class MobileComp extends Component {
                             <div className='card-footer'>
                                 <p className='card-text text-truncate'>OnePlus 11R 5G (16GB RAM, 256GB, Sonic Black)</p>
                                 <span style={{fontWeight:'bold'}}>₹44,999</span><br/><br/>
-                                <button type='button' className='btn btn-outline-secondary btn-lg'>Buy</button>
+                                <button type='button'onClick={buy} className='btn btn-outline-secondary btn-lg'>Buy</button>
                             </div>
                         </div>
                         </div>
@@ -40,7 +43,7 @@ class MobileComp extends Component {
                             <div className='card-footer'>
                                 <p className='card-text text-truncate'>Apple iPhone 14 (128GB, Midnight)</p>
                                 <span style={{fontWeight:'bold'}}>₹65,490</span><br/><br/>
-                                <button type='button' className='btn btn-outline-secondary btn-lg'>Buy</button>
+                                <button type='button' onClick={buy} className='btn btn-outline-secondary btn-lg'>Buy</button>
                             </div>
                         </div>
                         </div>
@@ -52,7 +55,7 @@ class MobileComp extends Component {
                             <div className='card-footer'>
                                 <p className='card-text text-truncate'>Apple iPhone 14 (128GB, Blue)</p>
                                 <span style={{fontWeight:'bold'}}>₹65,490</span><br/><br/>
-                                <button type='button' className='btn btn-outline-secondary btn-lg'>Buy</button>
+                                <button type='button'onClick={buy} className='btn btn-outline-secondary btn-lg'>Buy</button>
                             </div>
                         </div>
                         </div>
@@ -64,7 +67,7 @@ class MobileComp extends Component {
                             <div className='card-footer'>
                                 <p className='card-text text-truncate'>Apple iPhone 13 (128GB, Midnight)</p>
                                 <span style={{fontWeight:'bold'}}>₹55,990</span><br/><br/>
-                                <button type='button' className='btn btn-outline-secondary btn-lg'>Buy</button>
+                                <button type='button' onClick={buy}className='btn btn-outline-secondary btn-lg'>Buy</button>
                             </div>
                         </div>
                         </div>
@@ -76,7 +79,7 @@ class MobileComp extends Component {
                             <div className='card-footer'>
                                 <p className='card-text text-truncate'>Apple iPhone 14 (128GB, Purple)</p>
                                 <span style={{fontWeight:'bold'}}>₹65,490</span><br/><br/>
-                                <button type='button' className='btn btn-outline-secondary btn-lg'>Buy</button>
+                                <button type='button'onClick={buy} className='btn btn-outline-secondary btn-lg'>Buy</button>
                             </div>
                         </div>
                         </div>
@@ -90,7 +93,7 @@ class MobileComp extends Component {
                             <div className='card-footer'>
                                 <p className='card-text text-truncate'>Apple iPhone 13 (128GB, Starlight White)</p>
                                 <span style={{fontWeight:'bold'}}>₹55,990</span><br/><br/>
-                                <button type='button' className='btn btn-outline-secondary btn-lg'>Buy</button>
+                                <button type='button' onClick={buy}className='btn btn-outline-secondary btn-lg'>Buy</button>
                             </div>
                         </div>
                         </div>
@@ -102,7 +105,7 @@ class MobileComp extends Component {
                             <div className='card-footer'>
                                 <p className='card-text text-truncate'>Apple iPhone 14 (128GB, Starlight)</p>
                                 <span style={{fontWeight:'bold'}}>₹65,490</span><br/><br/>
-                                <button type='button' className='btn btn-outline-secondary btn-lg'>Buy</button>
+                                <button type='button' onClick={buy}className='btn btn-outline-secondary btn-lg'>Buy</button>
                             </div>
                         </div>
                         </div>
@@ -114,7 +117,7 @@ class MobileComp extends Component {
                             <div className='card-footer'>
                                 <p className='card-text text-truncate'>Apple iPhone 13 (128GB, Pink)</p>
                                 <span style={{fontWeight:'bold'}}>₹55,990</span><br/><br/>
-                                <button type='button' className='btn btn-outline-secondary btn-lg'>Buy</button>
+                                <button type='button'onClick={buy} className='btn btn-outline-secondary btn-lg'>Buy</button>
                             </div>
                         </div>
                         </div>
@@ -126,7 +129,7 @@ class MobileComp extends Component {
                             <div className='card-footer'>
                                 <p className='card-text text-truncate'>Apple iPhone 14 (256GB, Starlight)</p>
                                 <span style={{fontWeight:'bold'}}>₹75,990</span><br/><br/>
-                                <button type='button' className='btn btn-outline-secondary btn-lg'>Buy</button>
+                                <button type='button' onClick={buy}className='btn btn-outline-secondary btn-lg'>Buy</button>
                             </div>
                         </div>
                         </div>

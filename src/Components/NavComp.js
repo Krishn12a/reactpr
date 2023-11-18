@@ -10,6 +10,9 @@ import { Link } from 'react-router-dom';
 
 export class NavComp extends Component {
     render() {
+        const name=sessionStorage.getItem("user")
+        const isAdmin = name === "Admin";
+            
         return (
             <div>
                 <div className='row'>
@@ -20,10 +23,16 @@ export class NavComp extends Component {
 
                     <Link to='Menu' style={{fontSize:'x-large',textDecoration:'none',color:'#111150', fontWeight:'bold'}}><FontAwesomeIcon icon={faBars} /> Menu</Link>&nbsp;&nbsp;
 
-                    <Link to='admin' className='btn btn-info btn-sm  '>Laptop</Link>&nbsp;
-                    <Link to='ctv' className='btn btn-info btn-sm '>Tvs</Link>&nbsp;
-                    <Link to='crcam' className='btn btn-info btn-sm '>Camera</Link>&nbsp;
-                    <Link to='cmob' className='btn btn-info btn-sm '>Mobile</Link>&nbsp;
+                    {
+                    
+                    isAdmin && (
+                    <>
+                        <Link to='admin' className='btn btn-info btn-sm  '>Laptop</Link>&nbsp;
+                        <Link to='ctv' className='btn btn-info btn-sm '>Tvs</Link>&nbsp;
+                        <Link to='crcam' className='btn btn-info btn-sm '>Camera</Link>&nbsp;
+                        <Link to='cmob' className='btn btn-info btn-sm '>Mobile</Link>&nbsp;
+                    </>
+                    )}
                     
                     </div>
                     <div className='col-sm-6' style={{textAlign:'right'}}>
